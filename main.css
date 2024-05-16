@@ -91,6 +91,20 @@ a:hover{
     border: 1px solid black; /* Solo para propósitos de visualización */
 }
 
-.color{
-    color: white;
+.testcenter{
+   color: white;
+   text-align: center;
 }
+
+.testdescription{
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px; 
+    font-size: 25px;
+}
+
+nav ul li a.selected:hover {
+    background-color: #007bff; /* Color de fondo cuando el cursor pasa sobre el elemento */
+    color: #fff; /* Cambio de color del texto para mejorar la legibilidad */
+    cursor: pointer; /* Cambio de cursor al pasar sobre el elemento */
+  }
