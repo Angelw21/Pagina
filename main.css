@@ -1,3 +1,42 @@
+h1{
+    animation: mover-izquierda-derecha 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+
+ul{
+    animation: mover-izquierda-derecha 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda-derecha{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+
+p{
+    animation: mover-derecha-izquierda 2s 1;
+    animation-fill-mode: forwards;
+}
+@keyframes mover-derecha-izquierda{
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translatey(10px);
+    }
+}
+
 body{
 
     background-image: url("https://static.vecteezy.com/system/resources/previews/000/143/776/non_2x/prisma-background-vector.jpg");
